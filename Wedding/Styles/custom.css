@@ -1,0 +1,45 @@
+﻿body{background-color: #F7F7F6;}
+.login{padding-top: 65px;}
+.center{float: none; margin-left: auto; margin-right: auto;}
+
+
+.propContent
+{
+
+}
+
+
+a.HomeRun:link
+{
+    text-decoration: none;
+    cursor: text;
+}
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.table-smallerfont td
+{
+    font-size:0.9em;
+}
+
+.accordion-smallerfont
+{
+    font-size:0.9em;
+}
+
+.panel-heading {
+    cursor: pointer;
+    padding: 6px 15px !important;
+}
+
