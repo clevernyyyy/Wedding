@@ -140,13 +140,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:21:11</publishTime>
     </File>
     <File Include="bin/WebForms_Basic.xml">
-      <publishTime>11/02/2014 16:41:02</publishTime>
+      <publishTime>11/02/2014 19:46:40</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>11/02/2014 16:20:43</publishTime>
     </File>
     <File Include="bin/Wedding.dll">
-      <publishTime>11/02/2014 16:41:02</publishTime>
+      <publishTime>11/02/2014 19:46:40</publishTime>
     </File>
     <File Include="Bundle.config">
       <publishTime>11/02/2014 16:20:31</publishTime>
@@ -164,7 +164,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:21:05</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>11/02/2014 16:20:31</publishTime>
+      <publishTime>11/02/2014 19:45:39</publishTime>
+    </File>
+    <File Include="favicon %282%29.ico">
+      <publishTime>11/02/2014 19:17:28</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>11/02/2014 16:20:31</publishTime>
@@ -183,6 +186,45 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Global.asax">
       <publishTime>11/02/2014 16:20:31</publishTime>
+    </File>
+    <File Include="img/arrow_left.png">
+      <publishTime>11/02/2014 19:08:12</publishTime>
+    </File>
+    <File Include="img/arrow_right.png">
+      <publishTime>11/02/2014 19:08:12</publishTime>
+    </File>
+    <File Include="img/glyphicons-halflings-white.png">
+      <publishTime>11/02/2014 19:08:12</publishTime>
+    </File>
+    <File Include="img/glyphicons-halflings.png">
+      <publishTime>11/02/2014 19:08:12</publishTime>
+    </File>
+    <File Include="img/Menu/Honeymoon-alpha.png">
+      <publishTime>11/02/2014 19:07:49</publishTime>
+    </File>
+    <File Include="img/Menu/Honeymoon.gif">
+      <publishTime>11/02/2014 19:07:49</publishTime>
+    </File>
+    <File Include="img/Menu/Proposal-alpha.png">
+      <publishTime>11/02/2014 19:07:49</publishTime>
+    </File>
+    <File Include="img/Menu/Proposal.png">
+      <publishTime>11/02/2014 19:07:49</publishTime>
+    </File>
+    <File Include="img/Menu/Wedding-alpha.png">
+      <publishTime>11/02/2014 19:07:49</publishTime>
+    </File>
+    <File Include="img/Menu/Wedding.jpg">
+      <publishTime>11/02/2014 19:07:49</publishTime>
+    </File>
+    <File Include="img/PersonalPictures/NewYork/DSC05281.JPG">
+      <publishTime>11/02/2014 19:18:31</publishTime>
+    </File>
+    <File Include="img/PersonalPictures/NewYork/DSC05417.JPG">
+      <publishTime>11/02/2014 19:18:31</publishTime>
+    </File>
+    <File Include="img/PersonalPictures/NewYork/DSC05478.JPG">
+      <publishTime>11/02/2014 19:18:31</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>11/02/2014 16:21:16</publishTime>
@@ -278,10 +320,70 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:20:41</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>11/02/2014 17:38:23</publishTime>
+      <publishTime>11/02/2014 19:26:56</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
       <publishTime>11/02/2014 16:20:31</publishTime>
+    </File>
+    <File Include="Styles/animate-custom.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/animations.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-theme.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-theme.css.map">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-theme.min.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/bootstrap.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/bootstrap.css.map">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/bootstrap.min.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/custom.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/icomoon.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/icomoon/icomoon-.eot">
+      <publishTime>11/02/2014 19:10:48</publishTime>
+    </File>
+    <File Include="Styles/icomoon/icomoon.eot">
+      <publishTime>11/02/2014 19:10:48</publishTime>
+    </File>
+    <File Include="Styles/icomoon/icomoon.svg">
+      <publishTime>11/02/2014 19:10:48</publishTime>
+    </File>
+    <File Include="Styles/icomoon/icomoon.ttf">
+      <publishTime>11/02/2014 19:10:48</publishTime>
+    </File>
+    <File Include="Styles/icomoon/icomoon.woff">
+      <publishTime>11/02/2014 19:10:48</publishTime>
+    </File>
+    <File Include="Styles/jquery.fancybox-buttons.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/jquery.fancybox-thumbs.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/jquery.fancybox.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/main.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>11/02/2014 19:11:05</publishTime>
     </File>
     <File Include="ViewSwitcher.ascx">
       <publishTime>11/02/2014 16:20:31</publishTime>

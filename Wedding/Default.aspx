@@ -30,7 +30,8 @@
             <header class="clearfix">
 	  		 		<h1><span class="/Styles/icon icon-pyramid"></span></h1>
 	  		 		<p>Wedding</p>
-	  		 		<h2 style="color:White">This will be updated soon - I have to propose first!</h2>
+	  		 		<h2 style="color:White">This will be updated soon - I have to a few other things to fix first!</h2>
+	  		 		<h2 style="color:White">(hi Colleen)</h2>
 	  		</header>
         </div>
     </body>
