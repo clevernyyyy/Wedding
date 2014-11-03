@@ -27,6 +27,23 @@
             Response.Cookies.[Set](responseCookie)
         End If
 
+        'Master Redirect to Login, Must have all login information
+        Dim Userpkg As UserPackage = GetUserPackage()
+        If 0 Then
+            If Debugger.IsAttached OrElse HttpContext.Current.Session("lHomeRun") = True Then
+                'Continue Redirect to Default Page
+            ElseIf String.IsNullOrWhiteSpace(Userpkg.UserInformation.cAuthorization) OrElse _
+                String.IsNullOrWhiteSpace(Userpkg.UserInformation.cUserName) OrElse _
+                String.IsNullOrWhiteSpace(Userpkg.UserInformation.iUserIdentifier) OrElse _
+                IsNothing(Userpkg.UserInformation.nUserID) OrElse _
+                Not Debugger.IsAttached Then
+                Response.Redirect("/Forms/Standard/UnderConstruction.aspx")
+                'Response.Redirect("/Account/Login.aspx")
+            Else
+                Response.Redirect("/Forms/Standard/UnderConstruction.aspx")
+            End If
+        End If
+
         AddHandler Page.PreLoad, AddressOf master_Page_PreLoad
     End Sub
 
@@ -44,6 +61,12 @@
     End Sub
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        If Request.Url.AbsoluteUri.Contains("Default") Then
+            mnuHome.Visible = True
+        Else
+            mnuHome.Visible = False
+        End If
 
     End Sub
 

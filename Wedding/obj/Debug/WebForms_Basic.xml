@@ -447,6 +447,46 @@ Code control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Wedding.SiteMaster.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding.SiteMaster.mnuHome">
+	<summary>
+mnuHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding.SiteMaster.mnuAdamAndColRight">
+	<summary>
+mnuAdamAndColRight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding.SiteMaster.mnuAdamAndCol">
+	<summary>
+mnuAdamAndCol  control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding.SiteMaster.mnuHomeRight">
+	<summary>
+mnuHomeRight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Wedding.SiteMaster.MainContent">
 	<summary>
 MainContent control.
