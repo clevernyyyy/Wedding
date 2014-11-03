@@ -41,24 +41,6 @@ Partial Public Class SiteMaster
     Protected WithEvents mnuAdamAndColRight As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''mnuAdamAndCol  control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents mnuAdamAndCol As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''mnuHomeRight control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents mnuHomeRight As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
     '''MainContent control.
     '''</summary>
     '''<remarks>

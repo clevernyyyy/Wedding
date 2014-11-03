@@ -28,11 +28,19 @@
         <!-- ==== HEADERWRAP ==== -->
         <div id="subwrap" id="wedding" name="wedding">
             <header class="clearfix">
-	  		 		<h1><span class="/Styles/icon icon-pyramid"></span></h1>
-	  		 		<p>Wedding</p>
-	  		 		<h2 style="color:White">This will be updated soon - I have to a few other things to fix first!</h2>
-	  		 		<h2 style="color:White">(hi Colleen)</h2>
+	  		 	<h1><span class="/Styles/icon icon-heart"></span></h1>
+	  		 	<h2 style="color:White">(hi Colleen)</h2>
+
+                <h1>June 6th, 2015</h1>
+                    
 	  		</header>
+           
         </div>
+
+        <!-- Responsive iFrame -->
+    <h2 style="margin-left:30px; margin-top:30px;">Hotel Information:</h2>
+<div class="Flexible-container" style="margin-left:30px; margin-top:10px;">
+    <iframe width="425" height="350" frameborder="3" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1960532740045!2d-96.07315190000001!3d41.261067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f2ca01ea1c2d%3A0x349f94511f79c83f!2s10220+Regency+Cir%2C+Omaha%2C+NE+68114!5e0!3m2!1sen!2sus!4v1414995564722"></iframe>
+</div>
     </body>
 </asp:Content>
