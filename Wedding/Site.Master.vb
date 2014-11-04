@@ -63,9 +63,11 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
         If Request.Url.AbsoluteUri.Contains("Default") Then
-            mnuHome.Visible = True
+            mnuLeft.Visible = True
+            mnuRight.Visible = True
         Else
-            mnuHome.Visible = False
+            mnuLeft.Visible = False
+            mnuRight.Visible = False
         End If
 
     End Sub

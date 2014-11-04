@@ -48,11 +48,16 @@
                         style="font-size: 18px; color: #3498db;"></span></a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul runat="server" id="mnuHome" class="nav navbar-nav">
+                    <ul runat="server" id="mnuLeft" class="nav navbar-nav">
+                        <li><a>Church Info</a></li>
+                        <li><a>Hotel Info</a></li>
+                        <li><a>Awwwww</a></li>
+                    </ul>
+                    <ul runat="server" id="mnuRight" class="nav navbar-nav navbar-right">
                         <li><a href="http://adamschaal.com">Home</a></li>
                         <li runat="server" id="mnuAdamAndColRight"><a href="http://adamschaal.com/Forms/AdamAndColleen/AdamAndCol.aspx">
                             More Adam & Colleen</a></li>
-                    </ul>
+                    </ul>"
                 </div>
             </div>
         </div>

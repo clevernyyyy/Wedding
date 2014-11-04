@@ -22,14 +22,22 @@
     <link rel="icon" href="/favicon (2).ico" type="image/x-icon">
     <script type="text/javascript" src="/Scripts/jquery.min.js"></script>
     <script type="text/javascript" src="/Scripts/modernizr.custom.js"></script>
+    <script type="text/javascript">
+        function parallax() {
+            var scrolled = $(window).scrollTop();
+            $('.backgroundASDF').css('top', -(scrolled * 0.7) + 'px');
+        }
+        $(window).scroll(function () {
+            parallax();
+        });
+    </script>  
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
         <!-- ==== HEADERWRAP ==== -->
-        <div id="subwrap" id="wedding" name="wedding">
+        <div id="headerwrap">
             <header class="clearfix">
                 <h1><span class="/Styles/icon icon-heart"></span></h1>
-                <h2 style="color: White">(hi Colleen)</h2>
                 <h1>June 6th, 2015</h1>
             </header>
         </div>
@@ -43,12 +51,14 @@
             We can include one of our engagement pictures. 
         -->
 
-
         <!-- ==== HOTEL INFORMATION ==== -->
-        <h2 style="margin-left: 30px; margin-top: 30px;">Hotel Information:</h2>
-        <!-- Responsive iFrame -->
-        <div class="Flexible-container" style="margin-left: 30px; margin-top: 10px;">
-            <iframe width="425" height="350" frameborder="3" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1960532740045!2d-96.07315190000001!3d41.261067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f2ca01ea1c2d%3A0x349f94511f79c83f!2s10220+Regency+Cir%2C+Omaha%2C+NE+68114!5e0!3m2!1sen!2sus!4v1414995564722"></iframe>
+        <div id="contentsASDF">
+            <h2 style="margin-left: 30px; margin-top: 30px;">Hotel Information:</h2>
+            <!-- Responsive iFrame -->
+            <div class="Flexible-container" style="margin-left: 30px; margin-top: 10px;">
+                <iframe width="425" height="350" frameborder="3" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1960532740045!2d-96.07315190000001!3d41.261067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f2ca01ea1c2d%3A0x349f94511f79c83f!2s10220+Regency+Cir%2C+Omaha%2C+NE+68114!5e0!3m2!1sen!2sus!4v1414995564722"></iframe>
+            </div>
         </div>
     </body>
 </asp:Content>

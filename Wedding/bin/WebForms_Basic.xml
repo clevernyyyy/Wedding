@@ -455,9 +455,17 @@ HeadContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Wedding.SiteMaster.mnuHome">
+</member><member name="F:Wedding.SiteMaster.mnuLeft">
 	<summary>
-mnuHome control.
+mnuLeft  control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding.SiteMaster.mnuRight">
+	<summary>
+mnuRight control.
 </summary>
 	<remarks>
 Auto-generated field.

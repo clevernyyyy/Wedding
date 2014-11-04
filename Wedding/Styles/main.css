@@ -334,20 +334,15 @@ a:after {
     height: 50%;*/
 }
 
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
-#headerwrap {
-	background: url(../img/HDpix/cloudSunset.jpg) no-repeat center top;
-	margin-top: 0px;
+#headerwrap {  
+    background: url(../img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-114.jpg) repeat;  
+    margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
-	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
+	min-height: 1000px;
+    width: 100%;  
+    z-index: -1;  
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
 	-o-background-size: 100%;
@@ -357,58 +352,17 @@ a:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-#headerwrapAdamAndCol {
-	background: url(../img/HDpix/boraBora.jpg) no-repeat center top;
-	margin-top: 0px;
-	padding-top:130px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#headerwrapAdamAndCol h1 {
-	color:#ffffff;
-	margin-top: 100px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
-	font-size: 100px;
-	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
-}
-
-#headerwrapAdamAndCol p {
-	color:#ffffff;
-	font-size: 40px;
-	font-weight: 400;
-	text-align: center;
-	line-height: 40px;
-	letter-spacing: 3px;
-	margin-left: 15px;
-	text-shadow: 1px 1px 1px #000;
 }
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
+	margin-top: 140px;
+    margin-left: 600px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 3px 3px 3px #000;
 }
 
 #headerwrap p {
@@ -420,8 +374,20 @@ a:after {
 	letter-spacing: 3px;
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #000;
-}
+}  
 
+        #contentsASDF 
+        {  
+            color: #fff;  
+            font-family: arial;  
+            width: 600px;  
+            margin: auto;  
+            line-height: 20px;  
+            font-size: 16px;  
+        }
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
 #subwrap {
 	background: url(../img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-114.jpg) no-repeat center top;
 	margin-top: -50px;
@@ -454,48 +420,6 @@ a:after {
 }
 
 #subwrap p {
-	color:#ffffff;
-	font-size: 40px;
-	font-weight: 400;
-	text-align: center;
-	line-height: 40px;
-	letter-spacing: 3px;
-	margin-left: 15px;
-	text-shadow: 1px 1px 1px #000;
-}
-
-#constructionwrap {
-	background: url(../img/HDpix/Seattle.jpg) no-repeat center top;
-	margin-top: 30px;
-	padding-top:120px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 100%;
-	width: 100%;
-	
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#constructionwrap h1 {
-	color:#ffffff;
-	margin-top: 60px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
-	font-size: 100px;
-	font-weight: bold;
-	text-shadow: 2px 2px 2px #000;
-}
-
-#constructionwrap p {
 	color:#ffffff;
 	font-size: 40px;
 	font-weight: 400;
