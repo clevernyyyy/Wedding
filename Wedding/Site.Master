@@ -3,14 +3,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adam Schaal Bootstrapped">
-    <meta name="author" content="Adam Schaal">
-    <link rel="shortcut icon" href="">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Adam Schaal Bootstrapped" />
+    <meta name="author" content="Adam Schaal" />
+    <link rel="shortcut icon" />
     <title>AdamSchaal.com</title>
     <link type="text/css" rel="stylesheet" href="/Styles/bootstrap.min.css" />
-    <link rel="stylesheet" href="/Styles/animations.css">
+    <link rel="stylesheet" href="/Styles/animations.css" />
     <!-- Custom styles for this template -->
     <link href="/Styles/main.css" rel="stylesheet" />
     <link href="/Styles/icomoon.css" rel="stylesheet" />
@@ -20,9 +20,8 @@
         rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet'
         type='text/css' />
-    <link rel="icon" href="/favicon (2).ico" type="image/x-icon">
-    <script type="text/javascript" src="/Scripts/jquery.min.js"></script>
-    <script type="text/javascript" src="/Scripts/modernizr.custom.js"></script>
+    <link rel="icon" href="/favicon (2).ico" type="image/x-icon" />
+    <script type="text/javascript" src="/Scripts/Defaults/modernizr.2.6.2.js"></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
         <script>
             (function (i, s, o, g, r, a, m) {
@@ -64,22 +63,15 @@
     </div>
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-    <div class="col-md-13">
+    <div class="col-md-12">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="/Scripts/PopOver.js"></script>
-    <script type="text/javascript" src="/Scripts/Proposal.js"></script>
-    <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/Scripts/retina.js"></script>
-    <script type="text/javascript" src="/Scripts/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="/Scripts/smoothscroll.js"></script>
-    <script type="text/javascript" src="/Scripts/jquery-func.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="/Scripts/Defaults/bootstrap.min.js"></script>
 </body>
 </html>
