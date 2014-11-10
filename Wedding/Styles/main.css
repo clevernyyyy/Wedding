@@ -279,7 +279,7 @@ a:after {
 }
 
 #background {  
-    background: url(../img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-114.jpg) repeat;  
+    background: url(../img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background.jpg) repeat;  
     margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -300,8 +300,8 @@ a:after {
 
 #background h1 {
 	color:#ffffff;
-	margin-top: 140px;
-    margin-left: 600px;
+	/*margin-top: 140px;*/
+    /*margin-left: 600px;*/
 	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
@@ -319,6 +319,29 @@ a:after {
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #000;
 }  
+
+.spacer {
+    margin-right:50px;
+}
+.info{
+    background-color:palegoldenrod;
+}
+.info2{
+    background-color:orchid;
+}
+.info3{
+    background-color:palevioletred;
+}
+.info4{
+    background-color:forestgreen;
+}
+.info5{
+    background-color:blueviolet;
+}
+
+
+
+
 
 #contentHotel 
 {  
