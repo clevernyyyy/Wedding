@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="Wedding" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="Wedding._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Adam Schaal Bootstrapped" />
-    <meta name="author" content="Adam Schaal" />
-    <link rel="shortcut icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adam Schaal Bootstrapped">
+    <meta name="author" content="Adam Schaal">
+    <link rel="shortcut icon" href="">
     <title>AdamSchaal.com</title>
     <link type="text/css" rel="stylesheet" href="/Styles/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
@@ -18,53 +18,41 @@
         rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet'
         type='text/css' />
-    <link rel="shortcut icon" href="/favicon (2).ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon (2).ico" type="image/x-icon" />
-    <script type="text/javascript" src="/Scripts/Defaults/modernizr-2.6.2.js"></script>
-	<script type="text/javascript" src="/Scripts/Site/Parallax.js"></script>
+    <link rel="shortcut icon" href="/favicon (2).ico" type="image/x-icon">
+    <link rel="icon" href="/favicon (2).ico" type="image/x-icon">
+    <script type="text/javascript" src="/Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/Scripts/modernizr.custom.js"></script>
+    <script type="text/javascript">
+        function parallax() {
+            var scrolled = $(window).scrollTop();
+            $('.backgroundASDF').css('top', -(scrolled * 0.7) + 'px');
+        }
+        $(window).scroll(function () {
+            parallax();
+        });
+    </script>  
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-
-
-    <!-- ==== BACKGROUND PICTURE ==== -->
-    <div id="background" class="wrapper">
-        
-    </div>
-
-
-        <!-- Stuff I need -->
-        <!--
-                We will need date, time, location and directions to church (plus the address).  
-                We will need reception time, location and directions plus address.  
-                For the hotel we will add the link they gave us for people to book their rooms and include the address.  
-                Once we have our registries, we will add that.  
-                We can include one of our engagement pictures. 
-            -->
-
-        <!-- ==== DATE INFORMATION ==== -->
-        <div id="spacerDate" class="col-lg-5 spacer"></div>
-        <div id="contentDate" class="col-lg-6 info info1">
+    <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+        <!-- ==== HEADERWRAP ==== -->
+        <div id="headerwrap">
             <header class="clearfix">
-                <img src="img/Menu/Wedding-alpha.png" style="max-width:50%; height:auto;" />
+                <h1><span class="/Styles/icon icon-heart"></span></h1>
                 <h1>June 6th, 2015</h1>
             </header>
         </div>
 
-        <!-- ==== CHURCH INFORMATION ==== -->
-        <div id="spacerChurch" class="col-lg-5 spacer"></div>
-        <div id="contentChurch" class="col-lg-6 info info2">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Church Information:</h2>
-        </div>
+        <!-- Stuff I need -->
+        <!--
+            We will need date, time, location and directions to church (plus the address).  
+            We will need reception time, location and directions plus address.  
+            For the hotel we will add the link they gave us for people to book their rooms and include the address.  
+            Once we have our registries, we will add that.  
+            We can include one of our engagement pictures. 
+        -->
 
-        <!-- ==== RECEPTION INFORMATION ==== -->
-        <div id="spacerReception" class="col-lg-5 spacer"></div>
-        <div id="contentReception" class="col-lg-6 info info3">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Reception Information:</h2>
-        </div>
-        
         <!-- ==== HOTEL INFORMATION ==== -->
-        <div id="spacerHotel" class="col-lg-5 spacer"></div>
-        <div id="contentHotel" class="col-lg-6 info info4">
+        <div id="contentsASDF">
             <h2 style="margin-left: 30px; margin-top: 30px;">Hotel Information:</h2>
             <!-- Responsive iFrame -->
             <div class="Flexible-container" style="margin-left: 30px; margin-top: 10px;">
@@ -72,12 +60,5 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1960532740045!2d-96.07315190000001!3d41.261067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f2ca01ea1c2d%3A0x349f94511f79c83f!2s10220+Regency+Cir%2C+Omaha%2C+NE+68114!5e0!3m2!1sen!2sus!4v1414995564722"></iframe>
             </div>
         </div>
-
-        <!-- ==== PICTURES ==== -->
-        <div id="spacerPictures" class="col-lg-5 spacer"></div>
-        <div id="contentPictures" class="col-lg-6 info info5">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Pictures:</h2>
-        </div>
-
-
+    </body>
 </asp:Content>

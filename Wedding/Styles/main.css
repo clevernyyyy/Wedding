@@ -320,59 +320,23 @@ a:after {
 	text-shadow: 1px 1px 1px #000;
 }  
 
-.wrapper{
-    position: fixed;  
-}
-
 .spacer {
     margin-right:50px;
 }
-.header, .info, .footer {
-    position:relative;
-}
 .info{
-
-}
-.info1{
-    margin-top:80px;
-    background-color: #c9e5c0;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px 5px #999;
-    color: #111;
-    padding: 25px;
-    opacity:0.9;
+    background-color:palegoldenrod;
 }
 .info2{
-    margin-top:240px;
     background-color:orchid;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px 5px #999;
-    color: #111;
-    padding: 25px;
 }
 .info3{
-    margin-top:240px;
     background-color:palevioletred;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px 5px #999;
-    color: #111;
-    padding: 25px;
 }
 .info4{
-    margin-top:240px;
     background-color:forestgreen;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px 5px #999;
-    color: #111;
-    padding: 25px;
 }
 .info5{
-    margin-top:240px;
     background-color:blueviolet;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px 5px #999;
-    color: #111;
-    padding: 25px;
 }
 
 
