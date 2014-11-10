@@ -21,12 +21,15 @@
     <link rel="shortcut icon" href="/favicon (2).ico" type="image/x-icon" />
     <link rel="icon" href="/favicon (2).ico" type="image/x-icon" />
     <script type="text/javascript" src="/Scripts/Defaults/modernizr-2.6.2.js"></script>
+	<script type="text/javascript" src="/Scripts/Site/Parallax.js"></script>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 
 
     <!-- ==== BACKGROUND PICTURE ==== -->
-    <div id="background">
+    <div id="background" class="wrapper">
+        
+    </div>
 
 
         <!-- Stuff I need -->
@@ -40,9 +43,8 @@
 
         <!-- ==== DATE INFORMATION ==== -->
         <div id="spacerDate" class="col-lg-5 spacer"></div>
-        <div id="contentDate" class="col-lg-6 info">
+        <div id="contentDate" class="col-lg-6 info info1">
             <header class="clearfix">
-                <%--<h1><span class="/Styles/icon icon-heart"></span></h1>--%>
                 <img src="img/Menu/Wedding-alpha.png" style="max-width:50%; height:auto;" />
                 <h1>June 6th, 2015</h1>
             </header>
@@ -50,19 +52,19 @@
 
         <!-- ==== CHURCH INFORMATION ==== -->
         <div id="spacerChurch" class="col-lg-5 spacer"></div>
-        <div id="contentChurch"  class="col-lg-6 info2">
+        <div id="contentChurch" class="col-lg-6 info info2">
             <h2 style="margin-left: 30px; margin-top: 30px;">Church Information:</h2>
         </div>
 
         <!-- ==== RECEPTION INFORMATION ==== -->
         <div id="spacerReception" class="col-lg-5 spacer"></div>
-        <div id="contentReception" class="col-lg-6 info3">
+        <div id="contentReception" class="col-lg-6 info info3">
             <h2 style="margin-left: 30px; margin-top: 30px;">Reception Information:</h2>
         </div>
         
         <!-- ==== HOTEL INFORMATION ==== -->
         <div id="spacerHotel" class="col-lg-5 spacer"></div>
-        <div id="contentHotel" class="col-lg-6 info4">
+        <div id="contentHotel" class="col-lg-6 info info4">
             <h2 style="margin-left: 30px; margin-top: 30px;">Hotel Information:</h2>
             <!-- Responsive iFrame -->
             <div class="Flexible-container" style="margin-left: 30px; margin-top: 10px;">
@@ -73,11 +75,9 @@
 
         <!-- ==== PICTURES ==== -->
         <div id="spacerPictures" class="col-lg-5 spacer"></div>
-        <div id="contentPictures" class="col-lg-6 info5">
+        <div id="contentPictures" class="col-lg-6 info info5">
             <h2 style="margin-left: 30px; margin-top: 30px;">Pictures:</h2>
         </div>
-
-    </div>
 
 
 </asp:Content>

@@ -202,10 +202,10 @@
     <Content Include="img\Menu\Proposal.png" />
     <Content Include="img\Menu\Wedding-alpha.png" />
     <Content Include="img\Menu\Wedding.jpg" />
-    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-114.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-116.jpg" />
-    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-236.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-273.jpg" />
+    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background.jpg" />
+    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background2.jpg" />
     <Content Include="img\PersonalPictures\NewYork\DSC05281.JPG" />
     <Content Include="img\PersonalPictures\NewYork\DSC05417.JPG" />
     <Content Include="img\PersonalPictures\NewYork\DSC05478.JPG" />
