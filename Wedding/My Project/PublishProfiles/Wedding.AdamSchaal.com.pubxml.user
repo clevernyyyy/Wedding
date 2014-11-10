@@ -140,13 +140,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:21:11</publishTime>
     </File>
     <File Include="bin/WebForms_Basic.xml">
-      <publishTime>11/03/2014 18:29:16</publishTime>
+      <publishTime>11/10/2014 14:42:08</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>11/02/2014 16:20:43</publishTime>
     </File>
     <File Include="bin/Wedding.dll">
-      <publishTime>11/03/2014 18:29:16</publishTime>
+      <publishTime>11/10/2014 14:42:08</publishTime>
     </File>
     <File Include="Bundle.config">
       <publishTime>11/02/2014 16:20:31</publishTime>
@@ -164,7 +164,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:21:05</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>11/03/2014 18:21:08</publishTime>
+      <publishTime>11/10/2014 14:38:56</publishTime>
     </File>
     <File Include="favicon %282%29.ico">
       <publishTime>11/02/2014 19:17:28</publishTime>
@@ -229,6 +229,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-273.jpg">
       <publishTime>11/02/2014 23:55:57</publishTime>
     </File>
+    <File Include="img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background.jpg">
+      <publishTime>11/09/2014 22:30:10</publishTime>
+    </File>
+    <File Include="img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background2.jpg">
+      <publishTime>11/02/2014 23:55:57</publishTime>
+    </File>
     <File Include="img/PersonalPictures/NewYork/DSC05281.JPG">
       <publishTime>11/02/2014 19:18:31</publishTime>
     </File>
@@ -247,6 +253,33 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>11/02/2014 16:20:42</publishTime>
     </File>
+    <File Include="Scripts/Defaults/bootstrap.js">
+      <publishTime>11/02/2014 16:20:42</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/bootstrap.min.js">
+      <publishTime>11/02/2014 16:20:42</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/jquery-1.10.2.js">
+      <publishTime>11/02/2014 16:20:33</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/jquery-1.10.2.min.js">
+      <publishTime>11/02/2014 16:20:33</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/jquery-1.10.2.min.map">
+      <publishTime>11/02/2014 16:20:33</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/modernizr-2.6.2.js">
+      <publishTime>11/02/2014 16:20:41</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/respond.js">
+      <publishTime>11/02/2014 16:20:41</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/respond.min.js">
+      <publishTime>11/02/2014 16:20:41</publishTime>
+    </File>
+    <File Include="Scripts/Defaults/_references.js">
+      <publishTime>11/02/2014 16:20:41</publishTime>
+    </File>
     <File Include="Scripts/jquery-1.10.2.js">
       <publishTime>11/02/2014 16:20:33</publishTime>
     </File>
@@ -264,6 +297,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/respond.min.js">
       <publishTime>11/02/2014 16:20:41</publishTime>
+    </File>
+    <File Include="Scripts/Site/Parallax.js">
+      <publishTime>11/10/2014 14:33:35</publishTime>
     </File>
     <File Include="Scripts/WebForms/DetailsView.js">
       <publishTime>11/02/2014 16:20:52</publishTime>
@@ -319,6 +355,36 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/WebForms/TreeView.js">
       <publishTime>11/02/2014 16:20:52</publishTime>
     </File>
+    <File Include="Scripts/WebForms/UI/DetailsView.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/Focus.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/GridView.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/Menu.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/MenuStandards.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/SmartNav.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/TreeView.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/WebForms.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/WebParts.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/UI/WebUIValidation.js">
+      <publishTime>11/02/2014 16:20:52</publishTime>
+    </File>
     <File Include="Scripts/WebForms/WebForms.js">
       <publishTime>11/02/2014 16:20:52</publishTime>
     </File>
@@ -332,7 +398,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:20:41</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>11/03/2014 18:27:57</publishTime>
+      <publishTime>11/10/2014 14:37:59</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
       <publishTime>11/03/2014 00:39:19</publishTime>
@@ -392,7 +458,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 19:11:05</publishTime>
     </File>
     <File Include="Styles/main.css">
-      <publishTime>11/03/2014 18:21:42</publishTime>
+      <publishTime>11/10/2014 14:32:04</publishTime>
     </File>
     <File Include="Styles/Site.css">
       <publishTime>11/02/2014 19:11:05</publishTime>
