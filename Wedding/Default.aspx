@@ -20,32 +20,25 @@
         type='text/css' />
     <link rel="shortcut icon" href="/favicon (2).ico" type="image/x-icon" />
     <link rel="icon" href="/favicon (2).ico" type="image/x-icon" />
+    <script type="text/javascript" src="/Scripts/Defaults/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="/Scripts/Defaults/modernizr-2.6.2.js"></script>
-	<script type="text/javascript" src="/Scripts/Site/Parallax.js"></script>
+    <script type="text/javascript" src="/Scripts/Site/Parallax.js"></script>
+    <script type="text/javascript" src="/Scripts/Site/Maps.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIJ0NI0w1Na1FAOqhWt90sndpsRfCmNls"></script>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 
 
     <!-- ==== BACKGROUND PICTURE ==== -->
     <div id="background" class="wrapper">
-        
     </div>
-
-
-        <!-- Stuff I need -->
-        <!--
-                We will need date, time, location and directions to church (plus the address).  
-                We will need reception time, location and directions plus address.  
-                For the hotel we will add the link they gave us for people to book their rooms and include the address.  
-                Once we have our registries, we will add that.  
-                We can include one of our engagement pictures. 
-            -->
-
+    
+    <div id="content">
         <!-- ==== DATE INFORMATION ==== -->
         <div id="spacerDate" class="col-lg-5 spacer"></div>
         <div id="contentDate" class="col-lg-6 info info1">
             <header class="clearfix">
-                <img src="img/Menu/Wedding-alpha.png" style="max-width:50%; height:auto;" />
+                <img src="img/Menu/Wedding-alpha.png" style="max-width: 50%; height: auto;" />
                 <h1>June 6th, 2015</h1>
             </header>
         </div>
@@ -53,31 +46,77 @@
         <!-- ==== CHURCH INFORMATION ==== -->
         <div id="spacerChurch" class="col-lg-5 spacer"></div>
         <div id="contentChurch" class="col-lg-6 info info2">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Church Information:</h2>
+            <h1 style="margin-top: 30px;">Church Information</h1>
+            <p>We are getting married at <a href="http://www.stgerald.org/">St. Gerald's Church</a> at 2:00 pm.</p>
+            <div id="mapChurch" class="panel-group" runat="server">
+                <button id="viewMapChurch" class="btn btn-primary">View Map</button>
+                <div id="mapCanvasChurch"  style="width:700px; height:500px; margin-left:80px;"></div>
+                <div id="addressChurch" style="background:white; border:2px solid black; width:180px; padding: 8px 0px 8px 0px; font-size:14px;">
+                        St. Gerald's Catholic Church
+                        <br />
+                        9602 Q. St
+                        <br />
+                        (96th and Q. Street)
+                        <br />
+                        Omaha, NE
+                </div>
+             </div>
         </div>
 
         <!-- ==== RECEPTION INFORMATION ==== -->
         <div id="spacerReception" class="col-lg-5 spacer"></div>
         <div id="contentReception" class="col-lg-6 info info3">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Reception Information:</h2>
+            <h1 style="margin-top: 30px;">Reception Info</h1>
+            <p>Our reception will be following our wedding at <a href="http://arborhallomaha.com/">Arbor Hall</a>.</p>
+            <div id="mapReception" class="panel-group" runat="server">
+                <button id="viewMapReception" class="btn btn-primary">View Map</button>
+                <div id="mapCanvasReception"  style="width:700px; height:500px; margin-left:80px;"></div>
+                <div id="addressReception" style="background:white; border:2px solid black; width:180px; padding: 8px 0px 8px 0px; font-size:14px;">
+                        Arbor Hall
+                        <br />
+                        14040 Arbor Street
+                        <br />
+                        (140th and Center)
+                        <br />
+                        Omaha, NE
+                </div>
+             </div>
         </div>
-        
+
         <!-- ==== HOTEL INFORMATION ==== -->
         <div id="spacerHotel" class="col-lg-5 spacer"></div>
         <div id="contentHotel" class="col-lg-6 info info4">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Hotel Information:</h2>
-            <!-- Responsive iFrame -->
-            <div class="Flexible-container" style="margin-left: 30px; margin-top: 10px;">
-                <iframe width="425" height="350" frameborder="3" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1960532740045!2d-96.07315190000001!3d41.261067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8793f2ca01ea1c2d%3A0x349f94511f79c83f!2s10220+Regency+Cir%2C+Omaha%2C+NE+68114!5e0!3m2!1sen!2sus!4v1414995564722"></iframe>
-            </div>
+            <h1 style="margin-top: 30px;">Hotel Info</h1>
+            <p>For our out-of-town guests we have reserved a block of 
+                <br />
+                rooms at 
+                <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Morrissey%20-%20Schaal%20Wedding%5Eomawe%60MSWMSWA%60104.00%60USD%60false%605/30/15%606/8/15%605/15/15&app=resvlink&stop_mobi=yes">
+                    Regency Marriott</a>.  To get our reserved rate click 
+                <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Morrissey%20-%20Schaal%20Wedding%5Eomawe%60MSWMSWA%60104.00%60USD%60false%605/30/15%606/8/15%605/15/15&app=resvlink&stop_mobi=yes">
+                    here</a>.
+                <br />
+                The hotel will have a complimentary shuttle to-and-from Arbor Hall.
+            </p>
+            <div id="mapHotel" class="panel-group" runat="server">
+                <button id="viewMapHotel" class="btn btn-primary">View Map</button>
+                <div id="mapCanvasHotel"  style="width:700px; height:500px; margin-left:80px; "></div>
+                <div id="addressHotel" style="background:white; border:2px solid black; width:180px; padding: 8px 0px 8px 0px; font-size:14px;">
+                        Regency Marriott
+                        <br />
+                        10220 Regency Circle
+                        <br />
+                        (102nd and Regency)
+                        <br />
+                        Omaha, NE
+                </div>
+             </div>
         </div>
 
         <!-- ==== PICTURES ==== -->
         <div id="spacerPictures" class="col-lg-5 spacer"></div>
         <div id="contentPictures" class="col-lg-6 info info5">
-            <h2 style="margin-left: 30px; margin-top: 30px;">Pictures:</h2>
+            <h1 style="margin-top: 30px;">Pictures</h1>
         </div>
-
+    </div>
 
 </asp:Content>

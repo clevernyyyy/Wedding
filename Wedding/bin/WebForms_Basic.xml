@@ -527,6 +527,30 @@ email control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Wedding._Default.mapChurch">
+	<summary>
+mapChurch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding._Default.mapReception">
+	<summary>
+mapReception control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding._Default.mapHotel">
+	<summary>
+mapHotel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Wedding.ForgotPassword.loginForm">
 	<summary>
 loginForm control.
