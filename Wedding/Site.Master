@@ -21,7 +21,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet'
         type='text/css' />
     <link rel="icon" href="/favicon (2).ico" type="image/x-icon" />
-    <script type="text/javascript" src="/Scripts/Defaults/modernizr.2.6.2.js"></script>
+    <script type="text/javascript" src="/Scripts/Defaults/modernizr-2.6.2.js"></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -36,13 +36,14 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul runat="server" id="mnuLeft" class="nav navbar-nav">
-                        <li><a href="#contentChurch" class="smoothScroll">Church Info</a></li>
-                        <li><a href="#contentReception" class="smoothScroll">Reception Info</a></li>
-                        <li><a href="#contentHotel" class="smoothScroll">Hotel Info</a></li>
-                        <li><a href="#contentPictures" class="smoothScroll">Awwwww</a></li>
+                        <li><a href="#contentChurch" class="smoothScroll">Church</a></li>
+                        <li><a href="#contentReception" class="smoothScroll">Reception</a></li>
+                        <li><a href="#contentHotel" class="smoothScroll">Hotel</a></li>
+<%--                        <li><a href="#contentRegistry" class="smoothScroll">Registry</a></li>
+                        <li><a href="#contentPictures" class="smoothScroll">Awwwww</a></li>--%>
                     </ul>
                     <ul runat="server" id="mnuRight" class="nav navbar-nav navbar-right">
-                        <li><a href="http://adamschaal.com">Home</a></li>
+                        <%--<li><a href="http://adamschaal.com">Home</a></li>--%>
                         <li runat="server" id="mnuAdamAndColRight"><a href="http://adamschaal.com/Forms/AdamAndColleen/AdamAndCol.aspx">
                             More Adam & Colleen</a></li>
                     </ul>"

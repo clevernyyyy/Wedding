@@ -383,14 +383,6 @@ MainContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Wedding.Site_Mobile.ViewSwitcher1">
-	<summary>
-ViewSwitcher1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:Wedding.ResetPassword.ErrorMessage">
 	<summary>
 ErrorMessage control.
@@ -522,6 +514,30 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:Wedding.RegisterExternalLogin.email">
 	<summary>
 email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding._Default.mapChurch">
+	<summary>
+mapChurch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding._Default.mapReception">
+	<summary>
+mapReception control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Wedding._Default.mapHotel">
+	<summary>
+mapHotel control.
 </summary>
 	<remarks>
 Auto-generated field.

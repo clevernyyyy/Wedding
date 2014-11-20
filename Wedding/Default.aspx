@@ -20,11 +20,10 @@
         type='text/css' />
     <link rel="shortcut icon" href="/favicon (2).ico" type="image/x-icon" />
     <link rel="icon" href="/favicon (2).ico" type="image/x-icon" />
-    <script type="text/javascript" src="/Scripts/Defaults/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="/Scripts/Defaults/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="/Scripts/Defaults/jquery-1.10.2.min.js"></script>    
     <script type="text/javascript" src="/Scripts/Site/Parallax.js"></script>
     <script type="text/javascript" src="/Scripts/Site/Maps.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIJ0NI0w1Na1FAOqhWt90sndpsRfCmNls"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIJ0NI0w1Na1FAOqhWt90sndpsRfCmNls"></script>   
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 
@@ -46,11 +45,11 @@
         <!-- ==== CHURCH INFORMATION ==== -->
         <div id="spacerChurch" class="col-lg-5 spacer"></div>
         <div id="contentChurch" class="col-lg-6 info info2">
-            <h1 style="margin-top: 30px;">Church Information</h1>
+            <h1 style="margin-top: 30px;">Church</h1>
             <p>We are getting married at <a href="http://www.stgerald.org/">St. Gerald's Church</a> at 2:00 pm.</p>
             <div id="mapChurch" class="panel-group" runat="server">
                 <button id="viewMapChurch" class="btn btn-primary">View Map</button>
-                <div id="mapCanvasChurch"  style="width:700px; height:500px; margin-left:80px;"></div>
+                <div id="mapCanvasChurch"  style="width:80%; height:500px; margin-left:80px;"></div>
                 <div id="addressChurch" style="background:white; border:2px solid black; width:180px; padding: 8px 0px 8px 0px; font-size:14px;">
                         St. Gerald's Catholic Church
                         <br />
@@ -66,11 +65,11 @@
         <!-- ==== RECEPTION INFORMATION ==== -->
         <div id="spacerReception" class="col-lg-5 spacer"></div>
         <div id="contentReception" class="col-lg-6 info info3">
-            <h1 style="margin-top: 30px;">Reception Info</h1>
-            <p>Our reception will be following our wedding at <a href="http://arborhallomaha.com/">Arbor Hall</a>.</p>
+            <h1 style="margin-top: 30px;">Reception</h1>
+            <p>Our reception will be following our wedding at <a href="http://arborhallomaha.com/">Arbor Hall</a> at 5:00 pm.</p>
             <div id="mapReception" class="panel-group" runat="server">
                 <button id="viewMapReception" class="btn btn-primary">View Map</button>
-                <div id="mapCanvasReception"  style="width:700px; height:500px; margin-left:80px;"></div>
+                <div id="mapCanvasReception"  style="width:80%; height:500px; margin-left:80px;"></div>
                 <div id="addressReception" style="background:white; border:2px solid black; width:180px; padding: 8px 0px 8px 0px; font-size:14px;">
                         Arbor Hall
                         <br />
@@ -85,8 +84,8 @@
 
         <!-- ==== HOTEL INFORMATION ==== -->
         <div id="spacerHotel" class="col-lg-5 spacer"></div>
-        <div id="contentHotel" class="col-lg-6 info info4">
-            <h1 style="margin-top: 30px;">Hotel Info</h1>
+        <div id="contentHotel" class="col-lg-6 info info4" style="margin-bottom:800px;">
+            <h1 style="margin-top: 30px;">Hotel</h1>
             <p>For our out-of-town guests we have reserved a block of 
                 <br />
                 rooms at 
@@ -99,7 +98,7 @@
             </p>
             <div id="mapHotel" class="panel-group" runat="server">
                 <button id="viewMapHotel" class="btn btn-primary">View Map</button>
-                <div id="mapCanvasHotel"  style="width:700px; height:500px; margin-left:80px; "></div>
+                <div id="mapCanvasHotel"  style="width:80%; height:500px; margin-left:80px; "></div>
                 <div id="addressHotel" style="background:white; border:2px solid black; width:180px; padding: 8px 0px 8px 0px; font-size:14px;">
                         Regency Marriott
                         <br />
@@ -112,11 +111,31 @@
              </div>
         </div>
 
+        <!-- ==== REGISTRY INFO ==== -->
+<%--        <div id="spacerRegistry" class="col-lg-5 spacer"></div>
+        <div id="contentRegistry" class="col-lg-6 info info5">
+            <h1 style="margin-top: 30px;">Registry</h1>
+        </div>--%>
+
         <!-- ==== PICTURES ==== -->
-        <div id="spacerPictures" class="col-lg-5 spacer"></div>
-        <div id="contentPictures" class="col-lg-6 info info5">
+<%--        <div id="spacerPictures" class="col-lg-5 spacer"></div>
+        <div id="contentPictures" class="col-lg-6 info info6">
             <h1 style="margin-top: 30px;">Pictures</h1>
-        </div>
-    </div>
+            <!-- slideshow -->
+		    <div id="Masthead">&nbsp;</div>
+		    <div id="OuterContainer">
+			    <div id="Container">
+				    <div id="LinkContainer">
+				        <a href="#" id="PrevLink" title="Previous Photo"><span>Previous</span></a>
+				        <a href="#" id="NextLink" title="Next Photo"><span>Next</span></a>
+			        </div>
+			        <div id="Loading"><img src="/Slideshow/img/loading_animated2.gif" width="48" height="47" alt="Loading..." /></div>
+			    </div>
+		    </div>
+		
+		    <div id="CaptionContainer">
+		        <p><span id="Counter">&nbsp;</span> <span id="Caption">&nbsp;</span></p>
+		    </div>
+        </div>--%>
 
 </asp:Content>

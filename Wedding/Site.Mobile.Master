@@ -12,12 +12,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <h1>June 6th, 2015</h1>
+        <h1>Please use a Desktop, Mobile available soon.</h1>
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
         <section class="content-wrapper main-content clear-fix">
-            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            <asp:ContentPlaceHolder runat="server" ID="MainContent">
+            </asp:ContentPlaceHolder>
         </section>
-        <friendlyUrls:ViewSwitcher ID="ViewSwitcher1" runat="server" />
     </div>
     </form>
 </body>

@@ -57,13 +57,4 @@ Partial Public Class Site_Mobile
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
-
-    '''<summary>
-    '''ViewSwitcher1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ViewSwitcher1 As Global.Wedding.ViewSwitcher
 End Class

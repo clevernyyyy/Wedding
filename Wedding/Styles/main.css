@@ -362,31 +362,39 @@ a:after {
     padding: 25px;
 }
 .info2{
-    margin-top:240px;
-    background-color:#ffccff;
+    margin-top:800px;
+    background-color:#CC99FF;
     border-radius: 10px;
     box-shadow: 0px 0px 25px 5px #999;
     color: #111;
     padding: 25px;
 }
 .info3{
-    margin-top:240px;
-    background-color:#FF9966;
+    margin-top:800px;
+    background-color:#FF6666;
     border-radius: 10px;
     box-shadow: 0px 0px 25px 5px #999;
     color: #111;
     padding: 25px;
 }
 .info4{
-    margin-top:240px !important;
+    margin-top:800px !important;
     background-color:#ffcc99;
     border-radius: 10px;
     box-shadow: 0px 0px 25px 5px #999;
     color: #111;
     padding: 25px;
 }
-.info5{
-    margin-top:240px;
+.info5 {
+    margin-top:800px;
+    background-color:#ffccff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px #999;
+    color: #111;
+    padding: 25px;
+}
+.info6{
+    margin-top:800px;
     background-color:#66ccff;
     border-radius: 10px;
     box-shadow: 0px 0px 25px 5px #999;
@@ -513,17 +521,25 @@ a:after {
 
 /* ==========================================================================
    MEDIA QUERIES
-   ========================================================================== */
+  img ========================================================================== */
 
 
 @media screen and (max-width:1050px), screen and (max-device-width:1050px){
-	body .header{background-attachment: scroll;}
+	/*body .header{background-attachment: scroll;}*/
+
+    .info .info1 .info2 .info3 .info4 .info5 .info6{
+        display: none !important;
+    }
 }
 
 
 /*ipad portrait*/
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait){
-	.header{background-attachment: scroll;}
+	/*.header{background-attachment: scroll;}*/
+
+    .info .info1 .info2 .info3 .info4 .info5 .info6{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width:769px) {
@@ -534,5 +550,8 @@ a:after {
 		font-size: 30px;
 		line-height: 38px;
 	}
-}
 
+    .info .info1 .info2 .info3 .info4 .info5 .info6{
+        display: none !important;
+    }
+}

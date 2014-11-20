@@ -206,6 +206,8 @@
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-273.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background2.jpg" />
+    <Content Include="img\PersonalPictures\Engagement_SessionTwo\_MG_8140.jpg" />
+    <Content Include="img\PersonalPictures\Engagement_SessionTwo\_MG_8143.jpg" />
     <Content Include="img\PersonalPictures\NewYork\DSC05281.JPG" />
     <Content Include="img\PersonalPictures\NewYork\DSC05417.JPG" />
     <Content Include="img\PersonalPictures\NewYork\DSC05478.JPG" />
@@ -489,7 +491,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Forms\" />
-    <Folder Include="Scripts\Site\Slideshow\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
