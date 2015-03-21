@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Wedding" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="Wedding._Default" %>
+﻿<%@ Page Title="Wedding" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="Wedding._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <meta charset="utf-8" />
@@ -23,6 +23,7 @@
     <script type="text/javascript" src="/Scripts/Defaults/jquery-1.10.2.min.js"></script>    
     <script type="text/javascript" src="/Scripts/Site/Parallax.js"></script>
     <script type="text/javascript" src="/Scripts/Site/Maps.js"></script>
+    <script type="text/javascript" src="/Scripts/Site/Main.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIJ0NI0w1Na1FAOqhWt90sndpsRfCmNls"></script>   
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
@@ -84,7 +85,7 @@
 
         <!-- ==== HOTEL INFORMATION ==== -->
         <div id="spacerHotel" class="col-lg-5 spacer"></div>
-        <div id="contentHotel" class="col-lg-6 info info4" style="margin-bottom:800px;">
+        <div id="contentHotel" class="col-lg-6 info info4">
             <h1 style="margin-top: 30px;">Hotel</h1>
             <p>For our out-of-town guests we have reserved a block of 
                 <br />
@@ -112,10 +113,21 @@
         </div>
 
         <!-- ==== REGISTRY INFO ==== -->
-<%--        <div id="spacerRegistry" class="col-lg-5 spacer"></div>
-        <div id="contentRegistry" class="col-lg-6 info info5">
+        <%--<div id="regScroll" class="info55" style="margin-bottom:45px;"></div>--%>
+        <div id="spacerRegistry" class="col-lg-5 spacer"></div>
+        <div id="contentRegistry" class="col-lg-6 info info5" style="margin-bottom:800px;">
             <h1 style="margin-top: 30px;">Registry</h1>
-        </div>--%>
+            <div id="contentRegistryLinks" class="registryLinks">
+                <h2>Click on the logo below to be taken to our registry!</h2>
+                <span id="bedBathBeyondLink" class="pointer">
+                    <img src="img/PersonalPictures/Registries/BedBathAndBeyondLogo.jpg" 
+                        style="max-width: 40%; margin-left:20px; margin-top:25px; height: auto;" />
+                </span>
+                <span id="targetLink" class="pointer">
+                    <img src="img/PersonalPictures/Registries/TargetLogo.jpeg" style="max-width: 40%; height: auto;" />
+                </span>
+            </div>
+        </div>
 
         <!-- ==== PICTURES ==== -->
 <%--        <div id="spacerPictures" class="col-lg-5 spacer"></div>

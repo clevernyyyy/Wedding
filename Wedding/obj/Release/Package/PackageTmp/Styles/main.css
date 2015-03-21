@@ -279,7 +279,7 @@ a:after {
 }
 
 #background {  
-    background: url(../img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background.jpg) repeat;  
+    background: url(../img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background99.jpg) repeat;  
     margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -400,6 +400,13 @@ a:after {
     box-shadow: 0px 0px 25px 5px #999;
     color: #111;
     padding: 25px;
+}
+.registryLinks{
+    background-color:white;
+    padding:25px;
+}
+.pointer {
+    cursor: pointer;
 }
 
 /* ==========================================================================

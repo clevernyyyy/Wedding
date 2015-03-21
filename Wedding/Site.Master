@@ -39,8 +39,8 @@
                         <li><a href="#contentChurch" class="smoothScroll">Church</a></li>
                         <li><a href="#contentReception" class="smoothScroll">Reception</a></li>
                         <li><a href="#contentHotel" class="smoothScroll">Hotel</a></li>
-<%--                        <li><a href="#contentRegistry" class="smoothScroll">Registry</a></li>
-                        <li><a href="#contentPictures" class="smoothScroll">Awwwww</a></li>--%>
+                        <li><a href="#contentRegistry" class="smoothScroll">Registry</a></li>
+ <%--                        <li><a href="#contentPictures" class="smoothScroll">Awwwww</a></li>--%>
                     </ul>
                     <ul runat="server" id="mnuRight" class="nav navbar-nav navbar-right">
                         <%--<li><a href="http://adamschaal.com">Home</a></li>--%>

@@ -23,7 +23,7 @@ Partial Public Class SiteMaster
     Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
 
     '''<summary>
-    '''mnuLeft  control.
+    '''mnuLeft control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.

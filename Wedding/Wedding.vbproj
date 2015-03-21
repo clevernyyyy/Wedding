@@ -202,6 +202,8 @@
     <Content Include="img\Menu\Proposal.png" />
     <Content Include="img\Menu\Wedding-alpha.png" />
     <Content Include="img\Menu\Wedding.jpg" />
+    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background99.jpg" />
+    <Content Include="img\PersonalPictures\Registries\BedBathAndBeyondLogo.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-116.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-273.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background.jpg" />
@@ -211,6 +213,7 @@
     <Content Include="img\PersonalPictures\NewYork\DSC05281.JPG" />
     <Content Include="img\PersonalPictures\NewYork\DSC05417.JPG" />
     <Content Include="img\PersonalPictures\NewYork\DSC05478.JPG" />
+    <Content Include="img\PersonalPictures\Registries\TargetLogo.jpeg" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -226,6 +229,7 @@
     <Content Include="Scripts\Defaults\respond.js" />
     <Content Include="Scripts\Defaults\respond.min.js" />
     <Content Include="Scripts\Defaults\jquery.easing.1.3.js" />
+    <Content Include="Scripts\Site\Main.js" />
     <Content Include="Scripts\Site\Parallax.js" />
     <Content Include="Scripts\Site\Maps.js" />
     <Content Include="Scripts\Defaults\smoothscroll.js" />
