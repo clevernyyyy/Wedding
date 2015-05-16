@@ -192,6 +192,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="favicon %282%29.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Forms\Vendors.aspx" />
     <Content Include="img\arrow_left.png" />
     <Content Include="img\arrow_right.png" />
     <Content Include="img\glyphicons-halflings-white.png" />
@@ -202,7 +203,7 @@
     <Content Include="img\Menu\Proposal.png" />
     <Content Include="img\Menu\Wedding-alpha.png" />
     <Content Include="img\Menu\Wedding.jpg" />
-    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background99.jpg" />
+    <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-Background3.jpeg" />
     <Content Include="img\PersonalPictures\Registries\BedBathAndBeyondLogo.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-116.jpg" />
     <Content Include="img\PersonalPictures\Engagement_SessionOne\Colleen-Adam-Engagement-273.jpg" />
@@ -232,7 +233,7 @@
     <Content Include="Scripts\Site\Main.js" />
     <Content Include="Scripts\Site\Parallax.js" />
     <Content Include="Scripts\Site\Maps.js" />
-    <Content Include="Scripts\Defaults\smoothscroll.js" />
+    <Content Include="Scripts\Site\scroll.js" />
     <Content Include="Scripts\WebForms\UI\DetailsView.js" />
     <Content Include="Scripts\WebForms\UI\Focus.js" />
     <Content Include="Scripts\WebForms\UI\GridView.js" />
@@ -422,6 +423,13 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Vendors.aspx.designer.vb">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vendors.aspx.vb">
+      <DependentUpon>Vendors.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -494,7 +502,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Forms\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

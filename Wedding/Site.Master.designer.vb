@@ -32,6 +32,15 @@ Partial Public Class SiteMaster
     Protected WithEvents mnuLeft As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
+    '''mnuVendors control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents mnuVendors As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
     '''mnuRight control.
     '''</summary>
     '''<remarks>

@@ -455,6 +455,14 @@ mnuLeft control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Wedding.SiteMaster.mnuVendors">
+	<summary>
+mnuVendors control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Wedding.SiteMaster.mnuRight">
 	<summary>
 mnuRight control.

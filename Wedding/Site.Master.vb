@@ -64,9 +64,15 @@
 
         If Request.Url.AbsoluteUri.Contains("Default") Then
             mnuLeft.Visible = True
+            mnuVendors.Visible = False
+            mnuRight.Visible = True
+        ElseIf Request.Url.AbsoluteUri.Contains("Vendors") Then
+            mnuLeft.Visible = False
+            mnuVendors.Visible = True
             mnuRight.Visible = True
         Else
             mnuLeft.Visible = False
+            mnuVendors.Visible = False
             mnuRight.Visible = False
         End If
 

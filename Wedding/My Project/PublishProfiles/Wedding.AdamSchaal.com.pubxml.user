@@ -140,13 +140,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:21:11</publishTime>
     </File>
     <File Include="bin/WebForms_Basic.xml">
-      <publishTime>03/21/2015 00:33:53</publishTime>
+      <publishTime>03/25/2015 01:49:06</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>11/02/2014 16:20:43</publishTime>
     </File>
     <File Include="bin/Wedding.dll">
-      <publishTime>03/21/2015 00:33:53</publishTime>
+      <publishTime>03/25/2015 01:49:06</publishTime>
     </File>
     <File Include="Bundle.config">
       <publishTime>11/02/2014 16:20:31</publishTime>
@@ -234,6 +234,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background2.jpg">
       <publishTime>11/10/2014 15:40:57</publishTime>
+    </File>
+    <File Include="img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background3.jpeg">
+      <publishTime>03/25/2015 01:45:46</publishTime>
     </File>
     <File Include="img/PersonalPictures/Engagement_SessionOne/Colleen-Adam-Engagement-Background99.jpg">
       <publishTime>03/20/2015 21:46:35</publishTime>
@@ -330,6 +333,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/Site/Parallax.js">
       <publishTime>11/16/2014 01:41:07</publishTime>
+    </File>
+    <File Include="Scripts/Site/scroll.js">
+      <publishTime>03/25/2015 01:34:30</publishTime>
     </File>
     <File Include="Scripts/Site/smoothscroll.js">
       <publishTime>08/27/2014 22:24:57</publishTime>
@@ -431,7 +437,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 16:20:41</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>03/21/2015 00:08:27</publishTime>
+      <publishTime>03/25/2015 01:25:53</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
       <publishTime>11/19/2014 22:10:34</publishTime>
@@ -563,7 +569,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/02/2014 19:11:05</publishTime>
     </File>
     <File Include="Styles/main.css">
-      <publishTime>03/20/2015 21:50:48</publishTime>
+      <publishTime>03/25/2015 01:53:10</publishTime>
     </File>
     <File Include="Styles/Site.css">
       <publishTime>11/02/2014 19:11:05</publishTime>
